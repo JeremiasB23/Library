@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <!--Puppies Play font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Over the rainbow font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Pecita font-->
+    <link rel="stylesheet" href="./Pecita.otf" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <nav class="topBar">
+      <h1>LIBRARY</h1>
+    </nav>
+
+    <div class="background">
+      <!--*Add the books-->
+      <button class="displayTable">ADD BOOK</button>
+      <div class="askForBook">
+        <div>
+          <h1>BOOK</h1>
+          <input id="userInput1" type="text" placeholder="BOOK" />
+        </div>
+
+        <div>
+          <h1>AUTHOR</h1>
+          <input id="userInput2" type="text" placeholder="AUTHOR" />
+        </div>
+
+        <div>
+          <h1>PAGES</h1>
+          <input id="userInput3" type="text" placeholder="PAGES" />
+        </div>
+
+        <div>
+          <h1>FINISHED?</h1>
+          <input id="userInput4" type="text" placeholder="FINISHED" />
+        </div>
+        <button class="submit">Submit</button>
+      </div>
+
+      <!--*Display the books-->
+
+      <!-- 
+        <div class="addedBook">
+        <div>
+          <h1>BOOK</h1>
+          <p>100 YEARS OF SOLITUDE</p>
+        </div>
+
+        <div>
+          <h1>AUTHOR</h1>
+          <p>JEREMIAS BUTASSI</p>
+        </div>
+
+        <div>
+          <h1>PAGES</h1>
+          <p>2000</p>
+        </div>
+
+        <div>
+          <h1>FINISHED</h1>
+          <p>YES</p>
+        </div>
+      </div> 
+    -->
+
+      <div class="addedBooks"></div>
+    </div>
+  </body>
+</html>

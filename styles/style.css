@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topBar {
+  background-color: #ffefd8;
+  color: #5f11f7;
+
+  text-align: center;
+}
+
+.topBar h1 {
+  font-size: 100px;
+  font-family: "Puppies Play", cursive;
+  font-weight: 400;
+}
+
+.background {
+  min-height: 600px;
+  background: linear-gradient(
+      0deg,
+      rgba(206, 206, 206, 0.2),
+      rgba(206, 206, 206, 0.2)
+    ),
+    #5f11f7;
+}
+
+.displayTable {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+/**ASK FOR BOOK STYLE*/
+
+.askForBook {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 60px;
+  height: 100px;
+  width: 0;
+  border: 1px solid #5f11f7;
+  background-color: #ffefd8;
+
+  font-size: 0;
+
+  transition: 4s;
+}
+
+input {
+  height: 0;
+  width: 0;
+  transition: 4s;
+  margin-left: 50px;
+
+  border: 2px solid #5f11f7;
+}
+
+.askForBook h1 {
+  margin-left: 50px;
+  color: #5f11f7;
+  font-family: "Over the Rainbow", cursive;
+}
+
+/**SHOW BOOK STYLE*/
+
+/* .addedBook {
+  background-color: #ffefd8;
+  border-radius: 62px;
+  width: 300px;
+  height: 340px;
+  border: 1px solid #5f11f7;
+}
+
+.addedBook h1 {
+  text-align: center;
+  color: #5f11f7;
+  font-family: "Over the Rainbow", cursive;
+}
+
+.addedBook p {
+  text-align: center;
+  font-family: "Pecita", monospace;
+  border-bottom: 1px solid #5f11f7;
+} */
+
+h1 {
+  text-align: center;
+  color: #5f11f7;
+  font-family: "Over the Rainbow", cursive;
+}
+
+p {
+  text-align: center;
+  font-family: "Pecita", monospace;
+  border-bottom: 1px solid #5f11f7;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.submit {
+  width: 0;
+  height: 0;
+}
